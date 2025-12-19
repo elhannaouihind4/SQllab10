@@ -1,0 +1,50 @@
+ Rapport comparatif des méthodes :
+mysqldump :
+
+ Avantages : Outil standard, fiable, largement supporté
+
+ Export/import complets et partiels
+
+ Support triggers, routines, events
+
+ Inconvénients : Pas parallélisé, peut être lent pour grandes bases
+
+mysqlpump :
+
+ Avantages : Parallélisation, plus rapide
+
+ Filtres avancés (exclusion de bases/tables)
+
+ Compression intégrée
+
+ Inconvénients : Moins mature, support limité
+
+MySQL Shell (cloneDatabase) :
+
+ Avantages : Très rapide, parallélisé
+
+ Interface moderne
+
+ Support des connexions sécurisées
+
+ Inconvénients : Requiert MySQL 8.0+, moins flexible
+
+MySQL Workbench :
+
+ Avantages : Interface graphique intuitive
+
+ Guide pas à pas
+
+ Bon pour débutants
+
+ Inconvénients : Peut être lent, dépend de l'interface
+
+CSV (LOAD DATA INFILE) :
+
+ Avantages : Format universel, léger
+
+ Import très rapide
+
+ Compatible avec autres outils
+
+ Inconvénients : Pas de structure, pas de contraintes
